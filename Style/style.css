@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header style*/
+header{
+    background-image: url("../images/banner/banner3.png");
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* banner style */
+.banner{
+    text-align: right;
+    padding-right:  200px;
+}
+
+.banner-title{
+   font-size: 45px;
+   color: white;
+}
+
+.banner-description{
+    color: rgb(224, 220, 220);
+    margin-top: 15px;
+}
+
+/* button design*/
+.contact-btn{
+    color: #005fac;
+    background-color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
