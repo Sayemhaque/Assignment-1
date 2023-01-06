@@ -31,7 +31,7 @@ header{
 }
 
 /* button design*/
-.contact-btn{
+.btn{
     color: #005fac;
     background-color: white;
     padding: 15px 20px;
@@ -40,6 +40,7 @@ header{
     border: none;
     border-radius: 5px;
 }
+
 
 
 /* failure section design */
@@ -110,3 +111,30 @@ main{
     color: rgb(102, 98, 98);
     font-size: 18px;
  } 
+
+ /* call section style */
+ .call-now{
+    background-image: url("../images/watch.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 100px 0px;
+    position:relative;
+ }
+
+.gradient-img{
+    position: relative;
+}
+
+.call-details{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+
+.call-title{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
