@@ -138,3 +138,60 @@ main{
     font-size: 35px;
     margin-bottom: 10px;
 }
+
+/* future section styles */
+.future{
+    background-color: black;
+    
+}
+.future-section-title{
+    color: white;
+    font-size: 35px;
+}
+.future-section-description{
+    margin-top: 30px;
+    color: white;
+}
+address{
+    margin-top: 20px;
+    color: white;
+}
+address > p{
+    margin-bottom: 10px;
+}
+.social-icons{
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.future-section-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.future-section-form input{
+display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.future-form-title{
+    color: white;
+    font-size: 25px;
+}
+.subscribe-btn{
+    background-color: #005fac;;
+    padding: 15px 20px;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
